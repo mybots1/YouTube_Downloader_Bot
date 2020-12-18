@@ -39,7 +39,7 @@ async def ytdl(_, message):
         await sentm.delete()
     except Exception as e:
         try:
-            thumbnail_url = "https://telegra.ph/file/980acc31267047bcd6f73.jpg"
+            thumbnail_url = "https://telegra.ph/file/3179ee9d76a6e05c5799e.jpg"
             await message.reply_photo(thumbnail_url, caption=title, reply_markup=buttons)
         except Exception as e:
             await sentm.edit(
